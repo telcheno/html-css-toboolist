@@ -1,0 +1,19 @@
+/* RESET GENERALI */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLE HEADER */
+
+.page-header{
+  padding: 25px;
+  background-image: url("../img/pattern.png") ;
+  background-size: contain;
+}
+
+.page-header .logo{
+  height: 55px;
+  border: 3px solid rgb(127, 166, 251);
+}
