@@ -11,9 +11,47 @@
   padding: 25px;
   background-image: url("../img/pattern.png") ;
   background-size: contain;
+  background-color: white;
+
 }
 
 .page-header .logo{
   height: 55px;
   border: 3px solid rgb(127, 166, 251);
+}
+
+body{
+  background-color: #f1f1f1;
+
+}
+/* STYLE MAIN */
+
+/* centrato del elemento */
+.container{
+  margin: 67px auto;
+
+}
+
+.card{
+  padding: 24px;
+  max-width: 750px;
+  height: 325px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+/* button scelta */
+.button-on{
+  background-color: rgb(127, 166, 251);
+  border: none;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.button-off{
+  background-color: white;
+  border: 1px solid rgb(127, 166, 251);
+  border-radius: 3px;
+  padding: 2px 5px;
+
 }
