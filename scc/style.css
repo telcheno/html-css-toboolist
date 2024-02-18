@@ -40,19 +40,20 @@ body{
   background-color: white;
 }
 
-/* button scelta */
+/* style button scelta */
+.button-card{
+  border: none;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
 .button-on{
   background-color: rgb(127, 166, 251);
-  border: none;
-  padding: 2px 5px;
-  border-radius: 5px;
 }
 
 .button-off{
   background-color: white;
-  border: 1px solid rgb(127, 166, 251);
-  border-radius: 3px;
-  padding: 2px 5px;
+  border: 2px solid rgb(127, 166, 251);
 }
 
 /* titoli card */
@@ -68,12 +69,16 @@ body{
   display: inline;
 }
 
+
+/* STYLE LISTE */
+
 /* opzioni liste */
 .card-list li{
   list-style: none;
   margin-top: 15px;
 }
 
+/* style di marchi delle liste */
 .mark-list{
   width: 7px;
   height: 7px;
@@ -117,4 +122,16 @@ body{
 
 .testo-marrone{
   background-color: rgb(235, 163, 60);
+}
+.testo-verde{
+  background-color: rgb(175, 206, 74);
+}
+.testo-rosa{
+  background-color: rgb(220, 93, 155);
+}
+
+/* STYLE ESSTRA */
+
+.container, .logo{
+  box-shadow: 3px 3px 9px black ;
 }
