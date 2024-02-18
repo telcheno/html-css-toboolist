@@ -16,7 +16,7 @@
 }
 
 .page-header .logo{
-  height: 55px;
+  height: 57px;
   border: 3px solid rgb(127, 166, 251);
 }
 
@@ -32,6 +32,7 @@ body{
 
 }
 
+/* style card */
 .card{
   padding: 24px;
   max-width: 800px;
@@ -44,7 +45,7 @@ body{
   background-color: rgb(127, 166, 251);
   border: none;
   padding: 2px 5px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .button-off{
@@ -70,6 +71,7 @@ body{
 /* opzioni liste */
 .card-list li{
   list-style: none;
+  margin-top: 15px;
 }
 
 .mark-list{
@@ -78,18 +80,41 @@ body{
   font-size: 10px;
   margin-right: 9px;
   padding: 2px;
-  color: rgb(114, 190, 171);
-  border: 2px solid rgb(114, 190, 171);
   border-radius: 50%;
 }
 
-.test-list{
+
+.mark-on{
+  color: rgb(114, 190, 171);
+  border: 2px solid rgb(114, 190, 171);
+
+}
+
+.mark-off{
+  color: rgb(216, 69, 50);
+  border: 2px solid rgb(216, 69, 50);
+
+}
+
+.testo-list{
   font-size: 10px;
   color: white;
   padding: 2px 4px;
   border-radius: 18px;
 }
 
-.test-blu{
+.testo-blu{
   background-color: rgb(88, 163, 229);
+}
+
+.testo-viola{
+  background-color: rgb(159, 108, 217);
+}
+
+.testo-griggio{
+  background-color: rgb(106, 193, 174);
+}
+
+.testo-marrone{
+  background-color: rgb(235, 163, 60);
 }
